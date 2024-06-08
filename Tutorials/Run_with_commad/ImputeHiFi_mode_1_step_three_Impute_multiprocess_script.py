@@ -164,7 +164,7 @@ if __name__ == '__main__':
     chr_length_dic = basic.get_chr_length_info(chr_length_file)
     chr_bin_length_dic = {}
     for one_chr in chr_length_dic.keys():
-        if one_chr != 'chrY' and one_chr != 'chrX':
+        if one_chr != 'chrY':
             bin_length = chr_length_dic[one_chr] // resolution + 1
             chr_bin_length_dic[one_chr] = bin_length
     # RNA_FISH_nearest_neighbors_names_dic=ImputeHiFI.get_RNA_FISH_nearset_neighbors(data_dir)

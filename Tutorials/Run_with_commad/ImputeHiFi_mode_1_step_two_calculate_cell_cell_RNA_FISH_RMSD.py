@@ -136,12 +136,12 @@ if __name__ == '__main__':
     chr_length_dic = basic.get_chr_length_info(chr_length_file)
     chr_bin_length_dic = {}
     for one_chr in chr_length_dic.keys():
-        if one_chr != 'chrY' and one_chr != 'chrX':
+        if one_chr != 'chrY' :
             bin_length = chr_length_dic[one_chr] // resolution + 1
             chr_bin_length_dic[one_chr] = bin_length
 
     chr_name_list=list(chr_bin_length_dic.keys())
-    kernerl_number=19
+    kernerl_number=20
     chr_name_split_list = np.array_split(chr_name_list, kernerl_number)
     store_dir = r"/mnt/disk1/scfan/data/Cai_21_bioRxiv/ImputHiFI/first_seen_probe_data"
     import multiprocessing as mp
