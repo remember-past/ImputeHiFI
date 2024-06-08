@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+src/ImputeHiFI_Algorithm.py
+src/ImputeHiFI_Algorithm_no_HiC.py
+src/function_basic.py
+src/ImputeHiFI.egg-info/PKG-INFO
+src/ImputeHiFI.egg-info/SOURCES.txt
+src/ImputeHiFI.egg-info/dependency_links.txt
+src/ImputeHiFI.egg-info/requires.txt
+src/ImputeHiFI.egg-info/top_level.txt
